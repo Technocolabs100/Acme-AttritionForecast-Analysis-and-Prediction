@@ -1,5 +1,3 @@
-Sure! Here's a README for your GitHub repository:
-
 ---
 
 # Acme AttritionForecast: Analysis and Prediction
