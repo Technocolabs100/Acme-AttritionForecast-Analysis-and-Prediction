@@ -1,0 +1,48 @@
+### Dataset Information ###
+Number of rows: 1470
+Number of columns: 35
+
+### Duplicate Rows ###
+Number of duplicate rows: 0
+
+### Logistic Regression Results ###
+Confusion Matrix:
+[[249   6]
+ [ 32   7]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.89      0.98      0.93       255
+           1       0.54      0.18      0.27        39
+
+    accuracy                           0.87       294
+   macro avg       0.71      0.58      0.60       294
+weighted avg       0.84      0.87      0.84       294
+
+Accuracy: 0.8707482993197279
+
+### Random Forest Classifier Results ###
+Confusion Matrix:
+[[254   1]
+ [ 35   4]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.88      1.00      0.93       255
+           1       0.80      0.10      0.18        39
+
+    accuracy                           0.88       294
+   macro avg       0.84      0.55      0.56       294
+weighted avg       0.87      0.88      0.83       294
+
+Accuracy: 0.8775510204081632
+
+### Linear Regression Results ###
+Mean Absolute Error: 344.5709288553459
+Mean Squared Error: 158568.13015589083
+R-squared: -0.02001370583494433
+
+### Random Forest Regressor Results ###
+Mean Absolute Error: 346.4975510204082
+Mean Squared Error: 162883.20690544217
+R-squared: -0.047771095809493236
